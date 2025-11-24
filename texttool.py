@@ -12,8 +12,13 @@ def process_line(line):
         return text.upper()
     if cmd == "lowercase":
         return text.lower()
+
     if cmd =="count-words":
 	return str(len(text.split()))
+
+    if cmd == "length":
+        return str(len(text))
+
     return "Unknown command " + cmd
 
 
