@@ -1,2 +1,0 @@
-elif cmd == "count-words":
-     return str(len(text.split()))
